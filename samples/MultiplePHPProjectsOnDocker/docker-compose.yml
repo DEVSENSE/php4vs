@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+  phpweb:
+    build:
+      context: ./PHPWebProject
+      dockerfile: Dockerfile
+    networks:
+      - internal
+    volumes:
+      - ./PHPWebProject/:/var/www/html
+    ports:
+      - 8080:80
+  phpservice:
+    build:
+      context: ./PHPWebService
+      dockerfile: Dockerfile
+    networks:
+      - internal
+    volumes:
+      - ./PHPWebService/:/var/www/html
+
+volumes:
+  phpweb:
+  phpservice:
+
+networks:
+  internal:
+    driver: bridge

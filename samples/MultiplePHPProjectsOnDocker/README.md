@@ -1,0 +1,1 @@
+This is a sample project for tutorial **Create a multi-container PHP app with Docker Compose** on [https://blog.devsense.com/2022/multicontainer-php-app](https://blog.devsense.com/2022/multicontainer-php-app)

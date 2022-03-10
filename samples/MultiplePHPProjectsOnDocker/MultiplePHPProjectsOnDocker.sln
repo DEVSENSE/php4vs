@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PHPWebProject", "PHPWebProject\PHPWebProject.phpproj", "{1FAFB0EA-4C1A-4451-BCA0-EE80441B6E88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4F6D3C8-F1B3-4E9C-BDBB-F21064378482}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PHPWebService", "PHPWebService\PHPWebService.phpproj", "{0788638A-BA4E-41D7-BDC1-184390B0FDE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FAFB0EA-4C1A-4451-BCA0-EE80441B6E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAFB0EA-4C1A-4451-BCA0-EE80441B6E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAFB0EA-4C1A-4451-BCA0-EE80441B6E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAFB0EA-4C1A-4451-BCA0-EE80441B6E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0788638A-BA4E-41D7-BDC1-184390B0FDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0788638A-BA4E-41D7-BDC1-184390B0FDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0788638A-BA4E-41D7-BDC1-184390B0FDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0788638A-BA4E-41D7-BDC1-184390B0FDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F820E30-476A-4C2F-9046-769CD97C509D}
+	EndGlobalSection
+EndGlobal

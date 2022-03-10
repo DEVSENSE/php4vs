@@ -1,0 +1,17 @@
+﻿<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>0788638a-ba4e-41d7-bdc1-184390b0fde0</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnvName>Custom</EnvName>
+    <RuntimeVersion>8.0</RuntimeVersion>
+    <SaveServerSettingsInUserFile>true</SaveServerSettingsInUserFile>
+    <RootNamespace>PHPWebService</RootNamespace>
+    <WebRoot />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Dockerfile">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
+</Project>
