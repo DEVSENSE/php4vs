@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "GruntSample", "GruntSample.phpproj", "{DB183668-ABDC-49FD-9FFB-1A7687CDB8B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB183668-ABDC-49FD-9FFB-1A7687CDB8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB183668-ABDC-49FD-9FFB-1A7687CDB8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB183668-ABDC-49FD-9FFB-1A7687CDB8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB183668-ABDC-49FD-9FFB-1A7687CDB8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {640B9BD8-ECD0-4085-9379-0A2C1B7A39EF}
+	EndGlobalSection
+EndGlobal

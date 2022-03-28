@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {
+      "action": "cmd",
+      "event": "projectopened",
+      "parameters": {
+        "cmd": "npm install"
+      },
+      "disabled": false
+    }
+  ]
+}
