@@ -10,7 +10,7 @@ class BankAccountTest extends PHPUnit\Framework\TestCase
      */
     protected $account;
 
-    function setUp(){
+    function setUp() : void {
         $this->account =  new BankAccount("John", 10);
     }
 
