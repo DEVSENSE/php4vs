@@ -14,9 +14,6 @@ class BankAccountTest extends PHPUnit\Framework\TestCase
         $this->account =  new BankAccount("John", 10);
     }
 
-    /**
-     * @group General
-     */
     function testWithdraw_ValidAmount_ChangesBalance()
     {
         $withdrawal = 1;
@@ -26,13 +23,11 @@ class BankAccountTest extends PHPUnit\Framework\TestCase
         self::assertEquals($expected, $this->account->balance);
     }
 
-    /**
-     * @expectedException InvalidArgumentException
-     * @group Exceptions
-     */
     function testWithdraw_MoreAmountThanBalance_Throws()
     {
+        $this->expectException(InvalidArgumentException::class);
+
         $this->account->Withdraw(20);
-       
+
     }
 }
