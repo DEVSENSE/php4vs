@@ -1,0 +1,1 @@
+This is a sample project for tutorial [Unit Tests Basics](https://blog.devsense.com/2017/06/unit-testing)
